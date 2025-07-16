@@ -41,7 +41,7 @@ VINBOT é um script Python que envia mensagens automáticas para o WhatsApp usan
    - Crie um arquivo `.env` na raiz do projeto.
    - Adicione o token da API da WHAPI no formato:
      ```
-     WHAPI_TOKEN=oE1fMpqQ2CFRpT2nUxkAmWU9ZFFxDZ1Y
+     WHAPI_TOKEN=your_whapi_token_here
      ```
 
 ## Uso 🤖
