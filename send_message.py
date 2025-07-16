@@ -1,10 +1,15 @@
 import requests
+import os
+from dotenv import load_dotenv
 
-url = "https://gate.whapi.cloud/messages/text?token=oE1fMpqQ2CFRpT2nUxkAmWU9ZFFxDZ1Y"
+load_dotenv()
+token = os.getenv("WHAPI_TOKEN")
+
+url = f"https://gate.whapi.cloud/messages/text?token={token}"
 payload = {
     "typing_time": 3,
     "to": "5511940289184@s.whatsapp.net",
-    "body": "Olá, Vinicius! Bot funcionando 🚀"
+    "body": "Olá, Vinicius! Bot seguro e funcionando 🚀"
 }
 headers = {
     "accept": "application/json",
