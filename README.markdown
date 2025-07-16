@@ -73,4 +73,4 @@ VINBOT/
 - A mensagem e o número de destino podem ser ajustados no código em `send_message.py`.
 
 ## Licença 🤖
-[Adicione a licença desejada, ex.: MIT, GPL, ou especifique se não há licença.]
+Criado por [Vinicius Walter](https://github.com/ViniciusWalt), com ❤️ por aprendizado e automação.
